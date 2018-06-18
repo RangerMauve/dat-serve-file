@@ -1,0 +1,42 @@
+{
+  "name": "dat-serve-file",
+  "version": "1.0.0",
+  "description": "HTTP handler for Hyperdrives that matches the logic in Beaker browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/dat-serve-file.git"
+  },
+  "keywords": [
+    "dat",
+    "http",
+    "serve",
+    "beaker",
+    "hyperdrive"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/dat-serve-file/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/dat-serve-file#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0"
+  },
+  "dependencies": {
+    "eslint-plugin-standard": "^3.1.0",
+    "http-errors": "^1.6.3",
+    "identify-filetype": "^1.0.0",
+    "mime": "^2.3.1",
+    "pauls-dat-api": "^7.2.4",
+    "range-parser": "^1.2.0",
+    "through2": "^2.0.3"
+  }
+}
