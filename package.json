@@ -24,14 +24,17 @@
   },
   "homepage": "https://github.com/RangerMauve/dat-serve-file#readme",
   "devDependencies": {
+    "hyperdrive": "^9.14.0",
+    "random-access-memory": "^3.0.0",
+    "tape": "^4.9.1",
     "eslint": "^4.19.1",
+    "eslint-plugin-standard": "^3.1.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0"
   },
   "dependencies": {
-    "eslint-plugin-standard": "^3.1.0",
     "http-errors": "^1.6.3",
     "identify-filetype": "^1.0.0",
     "mime": "^2.3.1",
